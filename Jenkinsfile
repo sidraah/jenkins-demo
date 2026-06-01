@@ -5,6 +5,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
+                git branch: 'main',
                 git 'https://github.com/sidraah/jenkins-demo.git'
             }
         }
