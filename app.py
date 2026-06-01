@@ -1,1 +1,1 @@
-print("Hello from Jenkins Pipeline")
+print("Version 2")
